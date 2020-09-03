@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url(2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border: 1px transparent;
+    transition: 0.8s ease;
+}
+ul li a:hover{
+    background-color: lightslategray;
+    color: black;
+    text-decoration-line: underline;
+    border-radius: 15px;
+}
+ul li.active a{
+    background: transparent;
+    color: white;
+    text-decoration-line: underline;
+    border-radius: 10px;
+    text-decoration-style: double;
+    text-decoration-color: darkblue;
+}
+.logo img{
+    float: left;
+    width: 150px;
+    height: 80px;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title h1{
+    color: white;
+    font-size: 50px;
+}
+.title p{
+    color: darkslategrey;
+    font-size: 20px;
+}
+.form{
+    position: absolute;
+    top: 80%;
+    left: 39%;
+    transform: translate(-50%, -50%);
+}
+.form input{
+    width: 150%;
+    height: 50px;
+    border: 1px solid rgb(62, 65, 65);
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+    border-radius: 2px;
+    background: transparent;
+}
+.form input:hover{
+    background-color: white;
+    color: darkslategrey;
+}
+.button{
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    border:0px ;
+    border-radius: 7px;
+    color: white;
+    text-decoration: none;
+    transition: 0.8s ease;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(18, 117, 216);
+    text-align: center;
+}
+.btn:hover{
+    background-color: rgb(37, 37, 126) ;
+    color: white;
+}
